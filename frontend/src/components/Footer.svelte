@@ -56,12 +56,9 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
         box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        position: relative;
     }
     
     .footer-content {

@@ -39,10 +39,11 @@
 </nav>
 <style>
     nav {
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
         z-index: 1000;
         background-color: #FDF7FA;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -147,8 +148,6 @@
             transform: translateX(-100%);
             transition: transform 0.3s ease;
             z-index: 999;
-            display: flex;
-            align-items: center;
         }
         
         .pages.menu-open {
