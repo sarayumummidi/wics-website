@@ -108,6 +108,8 @@
         width: 125px;
         border: 1px solid #FF79B4;
         border-radius: 5px;
+        color: white;
+        font-weight: 600;
         padding: 0.5rem 1rem;
         font-size: 16px;
         border-radius: 10px;
